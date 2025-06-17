@@ -1,6 +1,6 @@
 //  union đồng nghĩa với join
 
-const addNumberOrString = (a: number | string, b: number | string) => {
+const addNumberOrString = (a: number | string | object, b: number | string) => {
     if(typeof a === "number" && typeof b === 'number') {
         return a + b
     }
